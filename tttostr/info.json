@@ -1,11 +1,11 @@
 {
     "author": ["Bartixxx", "Bartixxx"],
     "install_msg": "Thanks for installing.",
-    "name": "StrUP",
+    "name": "TtToStr",
     "disabled": false,
-    "short": "StrUP",
-    "description": "StrUP",
-    "tags": ["StrUP"],
+    "short": "TtToStr",
+    "description": "Uploads any tiktok links sended by user to streamble and send it back as video whih can be watched in discord",
+    "tags": ["download"],
     "required_cogs": {},
     "requirements": ["pytube", "yt-dlp", "requests"],
     "type": "COG"
