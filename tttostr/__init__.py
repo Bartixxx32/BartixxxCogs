@@ -25,7 +25,7 @@ SOFTWARE.
 
 from redbot.core.bot import Red
 
-from .core import VideoUploader
+from .core import tttostr
 
 __red_end_user_data_statement__ = (
     "This cog does not persistently store data or metadata about users."
@@ -33,5 +33,5 @@ __red_end_user_data_statement__ = (
 
 
 async def setup(bot: Red) -> None:
-    cog = VideoUploader(bot)
+    cog = tttostr(bot)
     await bot.add_cog(cog)

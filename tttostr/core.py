@@ -6,7 +6,7 @@ from redbot.core import commands
 import asyncio
 from redbot.core import Config
 
-class VideoUploader(commands.Cog):
+class tttostr(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.config = Config.get_conf(self, identifier=1234567890)
@@ -135,4 +135,4 @@ class VideoUploader(commands.Cog):
             print("Error waiting for video processing:", e)
 
 def setup(bot):
-    bot.add_cog(VideoUploader(bot))
+    bot.add_cog(tttostr(bot))
