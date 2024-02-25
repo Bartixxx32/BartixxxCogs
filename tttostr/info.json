@@ -1,0 +1,12 @@
+{
+    "author": ["Bartixxx", "Bartixxx"],
+    "install_msg": "Thanks for installing.",
+    "name": "StrUP",
+    "disabled": false,
+    "short": "StrUP",
+    "description": "StrUP",
+    "tags": ["StrUP"],
+    "required_cogs": {},
+    "requirements": ["pytube", "yt-dlp", "requests"],
+    "type": "COG"
+}
