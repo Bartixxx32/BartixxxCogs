@@ -1,4 +1,3 @@
-"""
 MIT License
 
 Copyright (c) 2024 Bartixxx
@@ -20,17 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-"""
-
-from redbot.core.bot import Red
-
-from .core import tttostr
-
-__red_end_user_data_statement__ = (
-    "This cog does not persistently store data or metadata about users."
-)
-
-
-async def setup(bot: Red) -> None:
-    cog = tttostr(bot)
-    await bot.add_cog(cog)

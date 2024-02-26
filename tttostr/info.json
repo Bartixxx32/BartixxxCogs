@@ -7,6 +7,6 @@
     "description": "Uploads any tiktok links sended by user to streamble and send it back as video whih can be watched in discord",
     "tags": ["download"],
     "required_cogs": {},
-    "requirements": ["pytube", "yt-dlp", "requests"],
+    "requirements": ["yt-dlp", "aiohttp", "aiofiles"],
     "type": "COG"
 }
