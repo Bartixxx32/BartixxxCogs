@@ -10,7 +10,7 @@ class Music(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def playyoutube(self, ctx: commands.Context, url: str):
+    async def yt(self, ctx: commands.Context, url: str):
         """Play a YouTube video audio using the Cobalt Tools API."""
         # Check if the user is connected to a voice channel
         if not ctx.author.voice:
