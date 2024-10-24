@@ -1,0 +1,12 @@
+{
+    "author": ["Bartixxx", "Bartixxx"],
+    "install_msg": "Thanks for installing the audiobart cog!",
+    "name": "audiobart",
+    "disabled": false,
+    "short": "audiobart",
+    "description": "Fetches and plays audio from YouTube links sent by users using the Cobalt API, allowing for seamless playback in Discord voice channels.",
+    "tags": ["audio", "youtube", "music"],
+    "required_cogs": {},
+    "requirements": ["requests"],
+    "type": "COG"
+}
