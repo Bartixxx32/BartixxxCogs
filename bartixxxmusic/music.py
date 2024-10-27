@@ -41,7 +41,7 @@ class Music(commands.Cog):
             await ctx.send("You need to be in a voice channel to use this command.")
             return
 
-        api_url = f"https://needdl.fly.dev/api/download?url={url}&type=video"
+        api_url = f"https://needdl.fly.dev/api/download?url={url}&type=audio"
         headers = CaseInsensitiveDict({
             "Accept": "application/json",
             "Content-Type": "application/json",
